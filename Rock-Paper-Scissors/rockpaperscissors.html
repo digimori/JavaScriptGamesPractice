@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Rock-Paper-Scissors/rockpaperscissors.css">
     <title>Rock, Paper, Scissors</title>
 </head>
 <body>
+    <div class="container">
+<div id="choices">
+<div class="choice-show">
+    <h2>AI Choice: <span id="ai-choice"></span></h2>
+</div>
+<div class="choice-show">
+    <h2>User Choice: <span id="user-choice"></span></h2>
+</div>
+<div class="choice-show">
+    <h2>Result: <span id="result"></span></h2>
+</div>
+</div>
+
+<div class="buttons">
+    <button id="rock" class="choice-buttons">Rock</button>
+    <button id="paper" class="choice-buttons">Paper</button>
+    <button id="scissors" class="choice-buttons">Scissors</button>
+</div>
+</div>
     <script src="/Rock-Paper-Scissors/app.js" charset="utf-8"></script>
 </body>
 </html>

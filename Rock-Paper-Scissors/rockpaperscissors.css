@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+div.buttons {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+div#choices {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button.choice-buttons {
+    display: flex;
+    flex: 1;
+    margin: 1rem 2rem;
+    cursor: pointer;
+    color: aqua;
+    text-align: center;
+}
+
+.choice-buttons button {
+    color: aqua;
+    background-color: aliceblue;
+}
